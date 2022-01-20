@@ -1,6 +1,4 @@
 defmodule DynHacks do
-  use Operator
-
   @moduledoc """
   Collection of hacks that utilise dynamic typing and syergise with standard Elixir protocols to improve UX.
 
