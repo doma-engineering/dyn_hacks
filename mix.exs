@@ -25,4 +25,15 @@ defmodule DynHacks.MixProject do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
+
+  def package do
+  [
+    licenses: ["WTFPL"],
+    links: %{
+      "Github" => "https://github.com/doma-engineering/dyn_hacks",
+      "Support" => "https://social.doma.dev/@jonn",
+      "Matrix" => "https://matrix.to/#/#uptight:matrix.org"
+    }
+  ]
+  end
 end
